@@ -3,9 +3,9 @@ import java.util.Scanner;
 
 class Solution5 {
     static boolean isPalindrome(String str, int start, int end) {
-        if (start >= end) return true;  // base case
-        if (str.charAt(start) != str.charAt(end)) return false; // mismatch
-        return isPalindrome(str, start + 1, end - 1); // recursive check
+        if (start >= end) return true; 
+        if (str.charAt(start) != str.charAt(end)) return false; 
+        return isPalindrome(str, start + 1, end - 1); 
     }
 }
 

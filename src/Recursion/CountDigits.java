@@ -20,7 +20,7 @@ public class CountDigits {
         if (n == 0) {
             System.out.println("Number of digits in 0 is: 1");
         } else {
-            int result = Solution7.countDigits(Math.abs(n)); // handle negative numbers too
+            int result = Solution7.countDigits(Math.abs(n));
             System.out.println("Number of digits in " + n + " is: " + result);
         }
     }

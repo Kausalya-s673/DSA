@@ -16,7 +16,7 @@ public class CountDigits {
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
 
-        // Special case: if n = 0, count should be 1
+   
         if (n == 0) {
             System.out.println("Number of digits in 0 is: 1");
         } else {
